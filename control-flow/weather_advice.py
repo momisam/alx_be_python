@@ -1,5 +1,5 @@
 # This program asks the user about the current weather condition
-weather_condition = (input('What is weather like today? (sunny/rainy/cold): ')
+weather_condition = input('What is weather like today? (sunny/rainy/cold): ')
 
 #Weather advice:
 
