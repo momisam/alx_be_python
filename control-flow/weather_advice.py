@@ -1,7 +1,4 @@
-# This program asks the user about the current weather condition
-weather_condition = str(input('What is weather like today? (sunny/rainy/cold): '))
-
-#Weather advice:
+weather_condition = input('What is weather like today? (sunny/rainy/cold): ')
 
 if weather_condition == 'sunny':
     print("Wear a t-shirt and sunglasses.")
