@@ -14,7 +14,7 @@ def convert_to_fahrenheit(celsius):
 
 def main():
     # Ask for the temperature
-    temp_input = input("Enter temperature to convert: ")
+    temp_input = input("Enter the temperature to convert: ")
 
     try:
         temperature = float(temp_input)
