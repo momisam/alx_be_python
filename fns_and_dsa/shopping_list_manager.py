@@ -15,7 +15,7 @@ def main():
         choice = input("Enter your choice: ").strip()
 
         if choice == "1":
-            item = input("Enter the Item: ").strip()
+            item = input("Enter the item to add: ").strip()
             if not item:
                 print("Empty input — nothing was added.")
                 continue
@@ -26,7 +26,7 @@ def main():
             if not shopping_list:
                 print("Your shopping list is empty. Nothing to remove.")
                 continue
-            item = input("Enter the Item: ").strip()
+            item = input("Enter the item to remove: ").strip()
             if not item:
                 print("Empty input — nothing was removed.")
                 continue 
@@ -51,6 +51,6 @@ def main():
             break
         else:
             print("Invalid choice, Please try again.")
-            
+
 if __name__ == "__main__":
     main()
