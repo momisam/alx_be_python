@@ -5,13 +5,13 @@ class Book:
         self.year = year
 
     def __str__(self):
-        # User-friendly string representation
-        return f"'{self.title}' by {self.author} ({self.year})"
+        # Matches expected format
+        return f"{self.title} by {self.author}, published in {self.year}"
 
     def __repr__(self):
-        # Developer-friendly representation
-        return f"Book(title='{self.title}', author='{self.author}', year={self.year})"
+        # Matches expected format
+        return f"Book('{self.title}', '{self.author}', {self.year})"
 
     def __del__(self):
-        # Called automatically when an object is deleted
-        print(f"Deleting book: {self.title} by {self.author} ({self.year})")
+        # Matches expected format
+        print(f"Deleting {self.title}")
